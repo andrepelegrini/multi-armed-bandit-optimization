@@ -1,6 +1,6 @@
 # Multi-Armed Bandit Optimization API
 
-API REST em **Python + FastAPI** que recebe dados temporais de experimentos A/B (ou multi-variante), armazena em **SQL (SQLite/SQLAlchemy)** e retorna a alocação de tráfego recomendada para o próximo dia usando **Thompson Sampling** ou **UCB1**.
+API REST em **Python + FastAPI** que recebe dados temporais de experimentos A/B (ou multi-variante), armazena em **SQL (SQLite/SQLAlchemy)** e retorna a alocação de tráfego recomendada para o próximo dia usando **Thompson Sampling** ou **UCB1** (Upper Confidence Bound 1).
 
 ---
 
@@ -51,7 +51,7 @@ multi-armed-bandit-optimization/
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/<seu-usuario>/multi-armed-bandit-optimization.git
+git clone https://github.com/andrepelegrini/multi-armed-bandit-optimization.git
 cd multi-armed-bandit-optimization
 ```
 
